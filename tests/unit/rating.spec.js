@@ -13,8 +13,8 @@ import { mount } from '@vue/test-utils'
 // }).destroy();
 // expect(spy.calledOnce).toBe(true);
 
-describe('Rating.vue', () => {
-  it('renders props.msg when passed', () => {
+describe('Rating', () => {
+  it('renders stars is 5', () => {
     var expectStars = 5
 
     const wrapper = mount(Rating)
