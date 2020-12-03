@@ -1,6 +1,10 @@
 <template>
     <div>
-
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
+        <li class="star"></li>
     </div>
 </template>
 

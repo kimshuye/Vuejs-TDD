@@ -44,3 +44,9 @@ npm install -g @vue/cli@4.5.9
 npm i -g vue-cli@2.9.6
 ```
 
+
+## Test run unittest command
+
+```
+npm run test:unit rating
+```

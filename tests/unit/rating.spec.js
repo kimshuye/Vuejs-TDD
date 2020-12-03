@@ -19,8 +19,7 @@ describe('Rating.vue', () => {
 
     const wrapper = mount(Rating)
     var stars = wrapper.findAll('.star')
-    stars = 5
 
-    expect(stars).toBe(expectStars)
+    expect(stars.length).toBe(expectStars)
   })
 })
